@@ -11,6 +11,13 @@ header {
   color: white;
   text-align: center;
 }
+header p {
+  font-size: 3rem;
+}
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+}
 a {
   color: white;
   padding: 10px;
@@ -24,6 +31,7 @@ h1 {
   font-size: 3.5rem;
 }
 h2{
+  text-align: center;
  font-size: 3.2rem;
 }
 h3 {
@@ -33,4 +41,49 @@ h3 {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+.wrap-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.houses-item {
+  background-color: #dedede;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.houses-img {
+  width: 100%; 
+  height: auto;
+}
+.houses-item-text {
+padding: 2rem;
+}
+.houses-img,
+.houses-item-text {
+  flex: 1 1 30%;
+  box-sizing: border-box;
+}
+.btn-details {
+  display: block;
+  background-color: blue;
+  padding: 5px;
+  text-align: center;
+}
+.price {
+  color: green;
+}
+li {
+  list-style: none;
+}
+.house-details {
+  display: flex;
+  flex-direction: row;
+}
+.house-details img {
+  margin-right: 3rem;
 }
