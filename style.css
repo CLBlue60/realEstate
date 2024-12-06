@@ -42,19 +42,20 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
-.wrap-all {
+.more-about {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-
+.houses {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
 .houses-item {
+  justify-content: space-between;
   background-color: #dedede;
   border: 1px solid gray;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
 }
 .houses-img {
   width: 100%;
@@ -63,15 +64,10 @@ h3 {
 .houses-item-text {
 padding: 2rem;
 }
-.houses-img,
-.houses-item-text {
-  flex: 1 1 30%;
-  box-sizing: border-box;
-}
 .btn-details {
   display: block;
   background-color: blue;
-  padding: 5px;
+  padding: 2px;
   text-align: center;
 }
 .price {
@@ -83,11 +79,15 @@ ul {
 }
 li {
   list-style: none;
+  padding: 5px;
 }
 .house-details {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .house-details img {
-  margin-right: 3rem;
+  margin-right: 1.5rem;
 }
