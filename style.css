@@ -51,8 +51,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+  flex-shrink: 2;
 }
 .houses-item {
+  display: flex;
   justify-content: space-between;
   background-color: #dedede;
   border: 1px solid gray;
