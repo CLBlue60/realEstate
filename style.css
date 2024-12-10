@@ -213,3 +213,19 @@ footer{
     text-decoration: underline;
     font-weight: 900;
 }
+@media (max-width: 768px) {
+  .menu-bar {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*about*/
+.about-container {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
