@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <title>RealEstate</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+  <title>RealEstate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
     <div class="menu-bar">
-      <a href="index.html"><h1>RealEstate</h1>
-      <nav>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-     </div>
-      <p>We sell luxury houses, condominiums, and penthouses!</p>
-    </header>
+      <a href="index.html">
+        <h1>RealEstate</h1>
+        <nav>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <p>We sell luxury houses, condominiums, and penthouses!</p>
+  </header>
   <main>
     <h2>More about us</h2>
     <div class="more-about">
@@ -57,29 +62,31 @@
     </div>
     <h2>Houses and Penthouses</h2>
     <section class="houses">
+      <div class="houses-item">
+        <div class="houses-img">
+          <img src="/img/announcement1.jpg" alt="">
+        </div>
+        <div class="houses-item-text">
+          <h3>Luxury House on the Lake</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, laudantium!</p>
+          <p class="price">3,000,000.00</p>
+          <ul>
+            <li class="house-details"><img src="/img/icon_wc.svg" alt=""></li>
+            <p>3</p>
+            <li class="house-details"><img src="/img/icon_room.svg"></li>
+            <p>4</p>
+            <li class="house-details"><img src="/img/icon_parking.svg" alt=""></li>
+            <p>3</p>
+          </ul>
+          <a class="btn-details" href="#">See Details</a>
+        </div>
+
         <div class="houses-item">
-          <div class="houses-img">
-            <img src="/img/announcement1.jpg" alt="">
-          </div>
-          <div class="houses-item-text">
-            <h3>Luxury Houses on the Lake</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, laudantium!</p>
-            <p class="price">3,000,000.00</p>
-            <ul>
-              <li class="house-details"><img src="/img/icon_wc.svg" alt=""></li>
-              <p>3</p>
-              <li class="house-details"><img src="/img/icon_room.svg"></li>
-              <p>4</p>
-              <li class="house-details"><img src="/img/icon_parking.svg" alt=""></li>
-              <p>3</p>
-            </ul>
-            <a class="btn-details" href="#">See Details</a>
-          </div>
           <div class="houses-img">
             <img src="/img/announcement2.jpg" alt="">
           </div>
           <div class="houses-item-text">
-            <h3>Luxury Houses on the Lake</h3>
+            <h3>Luxury House</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, laudantium!</p>
             <p class="price">3,000,000.00</p>
             <ul>
@@ -95,8 +102,9 @@
           <div class="houses-img">
             <img src="/img/announcement3.jpg" alt="">
           </div>
+          <div class="houses-item"></div>
           <div class="houses-item-text">
-            <h3>Luxury Houses on the Lake</h3>
+            <h3>House With a Pool</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, laudantium!</p>
             <p class="price">3,000,000.00</p>
             <ul>
@@ -110,8 +118,34 @@
             <a class="btn-details" href="#">See Details</a>
           </div>
         </div>
-       </div>
+      </div>
     </section>
-    </main>
-  </body>
+  </main>
+     <footer>
+        <div class="footer-container container">
+            <div>
+                <p>Powered by <span>Zillow</span></p>
+            </div>
+
+            <div class="privacy-text">
+                <p>Copyright &copy; 2024</p>
+                <p>Privacy Policy</p>
+            </div>
+
+            <div class="icons-list">
+                <div class="icon-container">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="icon-container">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="icon-container">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+      </footer>
+</body>
+
 </html>
